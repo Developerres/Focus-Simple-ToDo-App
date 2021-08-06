@@ -59,8 +59,7 @@ const TaskForm = () => {
             <div className="taskItem" key={m.id}>
               <span
                 onClick={(e) => {
-                  let lineThroughClass = e.currentTarget.className;
-                  return (lineThroughClass = lineThroughClass
+                  return (e.currentTarget.className = e.currentTarget.className
                     ? ""
                     : "lineThrough");
                 }}
