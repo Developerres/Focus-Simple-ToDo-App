@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Focus-Simple-ToDo-App/static/css/main.1e727952.chunk.css",
-    "main.js": "/Focus-Simple-ToDo-App/static/js/main.ad2725f5.chunk.js",
-    "main.js.map": "/Focus-Simple-ToDo-App/static/js/main.ad2725f5.chunk.js.map",
-    "runtime-main.js": "/Focus-Simple-ToDo-App/static/js/runtime-main.3f1ca4cc.js",
-    "runtime-main.js.map": "/Focus-Simple-ToDo-App/static/js/runtime-main.3f1ca4cc.js.map",
-    "static/js/2.8e424b40.chunk.js": "/Focus-Simple-ToDo-App/static/js/2.8e424b40.chunk.js",
-    "static/js/2.8e424b40.chunk.js.map": "/Focus-Simple-ToDo-App/static/js/2.8e424b40.chunk.js.map",
-    "static/js/3.a2a836ed.chunk.js": "/Focus-Simple-ToDo-App/static/js/3.a2a836ed.chunk.js",
-    "static/js/3.a2a836ed.chunk.js.map": "/Focus-Simple-ToDo-App/static/js/3.a2a836ed.chunk.js.map",
-    "index.html": "/Focus-Simple-ToDo-App/index.html",
-    "static/css/main.1e727952.chunk.css.map": "/Focus-Simple-ToDo-App/static/css/main.1e727952.chunk.css.map",
-    "static/js/2.8e424b40.chunk.js.LICENSE.txt": "/Focus-Simple-ToDo-App/static/js/2.8e424b40.chunk.js.LICENSE.txt",
-    "static/media/delete.e4efcb06.svg": "/Focus-Simple-ToDo-App/static/media/delete.e4efcb06.svg",
-    "static/media/pc.d864cbfb.svg": "/Focus-Simple-ToDo-App/static/media/pc.d864cbfb.svg",
-    "static/media/App.css": "/Focus-Simple-ToDo-App/static/media/shape.6bf9f848.svg"
+    "main.css": "/static/css/main.22987797.chunk.css",
+    "main.js": "/static/js/main.ad2725f5.chunk.js",
+    "main.js.map": "/static/js/main.ad2725f5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.acd5b1b3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.acd5b1b3.js.map",
+    "static/js/2.8e424b40.chunk.js": "/static/js/2.8e424b40.chunk.js",
+    "static/js/2.8e424b40.chunk.js.map": "/static/js/2.8e424b40.chunk.js.map",
+    "static/js/3.a2a836ed.chunk.js": "/static/js/3.a2a836ed.chunk.js",
+    "static/js/3.a2a836ed.chunk.js.map": "/static/js/3.a2a836ed.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.22987797.chunk.css.map": "/static/css/main.22987797.chunk.css.map",
+    "static/js/2.8e424b40.chunk.js.LICENSE.txt": "/static/js/2.8e424b40.chunk.js.LICENSE.txt",
+    "static/media/delete.e4efcb06.svg": "/static/media/delete.e4efcb06.svg",
+    "static/media/pc.d864cbfb.svg": "/static/media/pc.d864cbfb.svg",
+    "static/media/App.css": "/static/media/shape.6bf9f848.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f1ca4cc.js",
+    "static/js/runtime-main.acd5b1b3.js",
     "static/js/2.8e424b40.chunk.js",
-    "static/css/main.1e727952.chunk.css",
+    "static/css/main.22987797.chunk.css",
     "static/js/main.ad2725f5.chunk.js"
   ]
 }
