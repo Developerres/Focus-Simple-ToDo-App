@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, #f1ebf5, #f1dbe3);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6em;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+h1 {
+  font-weight: 100;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  max-width: 960px;
+  transform: translate(-50%, -50%);
+  border-radius: 0.6em;
+  padding: 2em;
+
+  background-color: #eee5ff;
+  background-image: url(../src/assets/images/shape.svg);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+input[type="text"] {
+  padding: 1em;
+  padding-right: 3.5em;
+  line-height: 1em;
+  background-color: #e0fff3;
+  border: solid 0.1em #46af4f;
+  width: 100%;
+  border-radius: 0.4em;
+  opacity: 0.6;
+}
+input[type="text"]:hover,
+input[type="text"]:focus {
+  opacity: 1;
+}
+
+input[type="submit"] {
+  margin-left: -3.3em;
+  height: 2.6em;
+  width: 2.8em;
+  background: #46af4f;
+  color: white;
+  border-radius: 0.4em;
+  border: 0;
+}
+input[type="submit"]:hover {
+  background: #076c60;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+.lineThrough button {
+  background-color: #95d19a;
+}
+
+.task-list {
+  padding-top: 2em;
+  max-height: 40vh;
+  overflow-x: auto;
+}
+.open,
+.done {
+  width: 20px;
+  height: 20px;
+  border: solid 0.1em #46af4f;
+  border-radius: 0.4em;
+  margin-right: 0.6em;
+}
+
+.done {
+  background-color: #46af4f;
+}
+
+.pc-image {
+  margin: 1em;
+  width: 60%;
+}
+
+.pc-image img {
+  width: 100%;
+}
+
+/* .mainForm {
+  opacity: 0.5;
+}
+.mainForm:hover,
+.mainForm:focus {
+  opacity: 1;
+} */
+
+.taskItem {
+  background-color: #fef3e0;
+  padding: 0.8em;
+  border-radius: 0.6em;
+  margin-bottom: 1em;
+}
+
+.delete {
+  float: right;
+  width: 1.2em;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: ease-in-out 0.2s;
+}
+
+.delete:hover {
+  opacity: 1;
+  filter: invert(52%) sepia(12%) saturate(1995%) hue-rotate(74deg)
+    brightness(107%) contrast(98%);
+}
+
+.delete:after {
+  content: "";
+  display: table;
+  clear: both;
+}
